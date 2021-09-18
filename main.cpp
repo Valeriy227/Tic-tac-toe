@@ -184,10 +184,6 @@ public:
             Move move;
             if (turn != user) {
                 auto list_of_moves = ComputeMove(pos, turn);
-                for (auto move : list_of_moves) {
-                    cout << move.rate << " ";
-                }
-                cout << endl;
                 move = Move::GetBestMove(list_of_moves);
             } else {
                 move = EnterMove();
