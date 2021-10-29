@@ -1,7 +1,7 @@
 # Tic-tac-toe
 
-Текстовая игра в крестики нолики.
+A text game of tic-tac-toe.
 
-Для компиляции используйте команду:  
+To compile, use the command:  
 g++ -std=c++11 main.cpp -o main.exe  
-Дальше запустите main.exe.
+Then run "main.exe".
